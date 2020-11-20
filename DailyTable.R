@@ -1,6 +1,6 @@
-# This script provides .csv output containing non-formatted pivot table with several groupings
-# Output will present summary on Managers' KPIs divided by traffic sourses they use.
-# Triky part is that different Managers can work with the same Traffic Source and we should calculate 
+# This script provides .csv output containing a non-formatted pivot table with several groupings
+# The output will present a summary on Managers' KPIs divided by traffic sources they use.
+# The tricky part is that different Managers can work with the same Traffic Source and we should calculate 
 # all data considering this issue.
 library(stringr)
 library(dplyr)
