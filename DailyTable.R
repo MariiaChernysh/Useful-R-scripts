@@ -3,8 +3,6 @@
 # The tricky part is that different Managers can work with the same Traffic Sources and their stats should be calculated considering this issue.
 library(stringr)
 library(dplyr)
-library(devtools)
-library(lubridate)
 library(formattable)
 # Set up working directory for input
 setwd("C:/Users/Input")
