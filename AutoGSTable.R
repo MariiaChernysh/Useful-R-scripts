@@ -47,7 +47,7 @@ pivot <- summarize(data2,
 pivot$Country<- as.character(pivot$Country)
 # Round Values to 2 digits
 pivot$LTD<- round(pivot$LTD,2)
-# Prepere the other set of data
+# Prepare the other set of data
 Yesterday <- "2020-11-19"
 Yfilter <- str_detect(data$Date, Yesterday)
 Ydata <- filter(data, Yfilter)
